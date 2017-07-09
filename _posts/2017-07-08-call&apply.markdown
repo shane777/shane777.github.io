@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "call apply以及相应的问题!"
+title:  "call apply以及相应的问题"
 date:   2017-07-08 18:18:13 +0800
 categories: Javascript
 ---
@@ -32,10 +32,9 @@ log(1,2);   //1 2
 更有趣的一个问题（来源segmentfault）：
 ![screenshot2]({{site.url}}/assets/170708_2.png)
 
-因为apply把数组拆分成了独立的参数传入，相当于txt=yellow，而orgen没有相应的变量名接收,而call把推进来的数组当作一整个参数赋值给了newArray,push不接受数组形式.
-
 ![screenshot3]({{site.url}}/assets/170708_3.png)
 
+因为apply把数组拆分成了独立的参数传入，相当于txt=yellow，而orgen没有相应的变量名接收,而call把推进来的数组当作一整个参数赋值给了newArray,push不接受数组形式.
 
 //改成this.key.concat(txt)
 
