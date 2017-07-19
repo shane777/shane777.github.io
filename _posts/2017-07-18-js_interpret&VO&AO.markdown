@@ -26,7 +26,11 @@ categories: Javascript
 
 就我个人理解，他们的相应概念和包含内容如下。		
 
+
 scope ：变量/函数起作用的区域
+
 scope chain : 保证对执行环境有权访问的所有变量和函数的有序访问。相当于VO + [scope]
+
 execution context  = {VO, this, [scope]}
+
 this : 函数/方法的拥有者 
