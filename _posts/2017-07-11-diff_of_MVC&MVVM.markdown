@@ -2,7 +2,7 @@
 layout: post
 title:  "MVC库与MVVC库的对比"
 date:   2017-07-11 21:14:27 +0800
-categories: Javascript
+categories: Web
 ---
 
 最近正在齐头并进的学习jQuery以及Vue.js，对两种不同类型的框架的使用有了一些思考和资料的调查，记录一下。
