@@ -45,6 +45,13 @@ MDN  https://developer.mozilla.org/en-US/docs/Web/JavaScript : 这真的是个�
 6.node.js  
 --------
 
+Node.js 入门 ：  
+https://www.nodebeginner.org/index-zh-cn.html
+
+关于其模块的介绍：  
+http://www.infoq.com/cn/articles/nodejs-module-mechanism
+
+
 7.webpack  
 ---------
 
