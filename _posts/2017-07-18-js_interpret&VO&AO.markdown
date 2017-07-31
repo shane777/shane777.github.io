@@ -27,10 +27,11 @@ categories: Javascript
 就我个人理解，他们的相应概念和包含内容如下。		
 
 
-scope ：变量/函数起作用的区域
-
-scope chain : 保证对执行环境有权访问的所有变量和函数的有序访问。相当于VO + [scope]
+scope ：变量/函数起作用的区域  
+scope chain : 保证对执行环境有权访问的所有变量和函数的有序访问。相当于VO + [scope]  
+我们可以将作用域定义为一套规则，用来管理引擎如何在当前作用域以及嵌套的子作用域中根据标识符名称进行变量查找，作用域链是这套规则的具体实现。
 
 execution context  = {VO, this, [scope]}
 
 this : 函数/方法的拥有者 
+
