@@ -19,3 +19,12 @@ HTML 4.01 中的 doctype 需要对 DTD 进行引用，因为 HTML 4.01 基于
 2. IE=7/8/9：表示采用对应IE版本的标准模式，忽略文档类型声明，使用标准模式；
 3. IE=EmulateIE7/EmulateIE8/EmulateIE9，采用模拟对应IE版本的模式，如果是以<!DOCTYPE>作为文档第一行则采用该版本的标准模式，否则将文档模式设置为IE5
 4. IE=Edge：始终以最新的文档模式来渲染页面，忽略文档类型声明。比如IE10就会用IE10标准模式，IE9就会用IE9标准模式。
+
+
+而为什么会有这三种模式，实际上是历史遗留问题。在很久以前的网络上，页面通常有两种版本：为网景（Netscape）的 Navigator准备的版本以及为微软（Microsoft）的 Internet Explorer准备的版本。当 W3C 创立网络标准后，为了不破坏当时既有的网站，浏览器不能直接起用这些标准。因此，浏览器采用了两种模式，用以把能符合新规范的网站和老旧网站区分开。  
+在怪异模式下，排版会模拟 Navigator 4 与 Internet Explorer 5 的非标准行为。为了支持在网络标准被广泛采用前，就已经建好的网站，这么做是必要的。在标准模式下，行为即（但愿如此）由 HTML 与 CSS 的规范描述的行为。在接近标准模式下，只有少数的怪异行为被实现。  
+
+如果想查看具体有哪些区别 可以看  
+https://developer.mozilla.org/en-US/docs/Mozilla/Mozilla_quirks_mode_behavior  
+和  
+https://developer.mozilla.org/en-US/docs/Gecko's_Almost_Standards_Mode  
