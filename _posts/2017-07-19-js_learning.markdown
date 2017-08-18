@@ -15,7 +15,7 @@ categories: Web
 
 学习过程：
 
-w3school.
+w3school/MDN. 把所有标签都看一遍，MDN还是按照分类规划好标签的。非常适合复习。
 
 
 2.CSS  
@@ -25,7 +25,10 @@ w3school.
 
 学习过程：
 
-w3school
+w3school/MDN. 比较基础的还是将基本属性和一些细节讲解阅览一下。
+
+CSS 需要掌握的要点是：
+布局 盒模式 
 
 3.JavaScript  
 
