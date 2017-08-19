@@ -10,44 +10,49 @@ categories: Web
 
 1.HTML  
 -----   
-
+<br/>
 实际上前端最基础和最原始的概念就是HTML。
 
 学习过程：
 
-w3school/MDN. 把所有标签都看一遍，MDN还是按照分类规划好标签的。非常适合复习。
+1. 最开始很推荐一本书，<< Head First HTML 与 CSS >>。 Head First 系列都很适合新手入门，因为比较有趣，深入浅出，不会在一开始产生抵触心理或者理解不了之类的。
+这本书刚好覆盖了关于网页的基础知识点，就是HTML结构，web结构，包括CSS部分的内容盒模式之类的也全部覆盖了。可以打下一个基础为了看后面那些知识是入门但实际上对新手不算太友好的文档和书打下个基础。  
+2. w3school/MDN. 把所有标签都看一遍，MDN还是按照分类规划好标签的。非常适合复习。
 
 
 2.CSS  
 -------  
-  
+ <br/> 
 单一的文档不能满足我们的需求之后，我们希望为文档增加一些样式，于是就有了CSS
 
-学习过程：
+学习过程：  
 
-w3school/MDN. 比较基础的还是将基本属性和一些细节讲解阅览一下。
+1. << CSS权威指南 >> 虽然这个名字起的像本字典查阅书，但是实际上是从基础开始讲解的具体细节。细细的看过，对于最基础的CSS就会有一个充分的了解了。  
+2. w3school/MDN. 将基本属性和一些细节讲解阅览一下。后者会更新更快一些，包括CSS3等新的规范之类的都会及时更新。
 
 CSS 需要掌握的要点是：
 布局 盒模式 
 
 3.JavaScript  
-
+----
+<br/>
 最后，我们希望页面对我们的操作有一些反应，而部分行为，比如验证账号格式等等 操作不希望每次都传入后台，既慢又浪费资源。于是有了JavaScript。
 
 学习过程：
 
-MDN  https://developer.mozilla.org/en-US/docs/Web/JavaScript : 这真的是个很好很完善的平台。推荐有能力的话阅读英文版，因为中文版部分页面不是所有段落都翻译过的。
+1. << JavaScript Dom>>
+2. MDN  https://developer.mozilla.org/en-US/docs/Web/JavaScript : 这真的是个很好很完善的平台。推荐有能力的话阅读英文版，因为中文版部分页面不是所有段落都翻译过的。
 
 
 4.BootStrap  
 --------
-
+<br/>
 5.JQuery  
 --------
-
+<br/>
 6.node.js  
 --------
-
+<br/>
 Node.js 入门 ：  
 https://www.nodebeginner.org/index-zh-cn.html
 
@@ -57,7 +62,7 @@ http://www.infoq.com/cn/articles/nodejs-module-mechanism
 
 7.webpack  
 ---------
-
+<br/>
 webpack是一个打包工具，可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些预设，打包为合适的格式以供浏览器使用。  
 Webpack的工作方式是：把你的项目当做一个整体，通过一个给定的主文件（如：index.js），Webpack将从这个文件开始找到你的项目的所有依赖文件，使用loaders处理它们，最好打包为一个浏览器可识别的JavaScript文件。  
 
