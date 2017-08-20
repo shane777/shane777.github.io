@@ -40,8 +40,9 @@ CSS 需要掌握的要点是：
 
 学习过程：
 
-1. << JavaScript Dom>>
-2. MDN  https://developer.mozilla.org/en-US/docs/Web/JavaScript : 这真的是个很好很完善的平台。推荐有能力的话阅读英文版，因为中文版部分页面不是所有段落都翻译过的。
+1. << JavaScript Dom 编程艺术 >> 适合稍稍了解一点点相关知识之后的入门，能对JS这门语言一开始是用来干嘛的有个认识。  
+2. << JavaScript高级程序设计 >> 前十三章要反复看，对这门语言的基础就很扎实了。讲解的很全面很细，章节分的也很好。就是太厚了。  
+3. MDN  https://developer.mozilla.org/en-US/docs/Web/JavaScript : 这真的是个很好很完善的平台。推荐有能力的话阅读英文版，因为中文版部分页面不是所有段落都翻译过的。
 
 
 4.BootStrap  
