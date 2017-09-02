@@ -7,6 +7,8 @@ categories: Web
 
 做了一段时间的Java之后突然迷恋上了前端。一直零零散散的用到就学一点，也没有系统的学习过。刚好在这个博客慢慢的记录我学习的过程，过程中产生的疑问并把它转化为文章等等。
 也算是给自己一点督促，每天如果是在看书看文档就就着学习过程在的问题写一篇博文，如果是试着写项目就提交到github上。
+<br/><br/>
+#一、基础知识
 
 1.HTML  
 -----   
@@ -44,14 +46,7 @@ CSS 需要掌握的要点是：
 2. << JavaScript高级程序设计 >> 前十三章要反复看，对这门语言的基础就很扎实了。讲解的很全面很细，章节分的也很好。就是太厚了。  
 3. MDN  https://developer.mozilla.org/en-US/docs/Web/JavaScript : 这真的是个很好很完善的平台。推荐有能力的话阅读英文版，因为中文版部分页面不是所有段落都翻译过的。
 
-
-4.BootStrap  
---------
-<br/>
-5.JQuery  
---------
-<br/>
-6.node.js  
+4.node.js  
 --------
 <br/>
 Node.js 入门 ：  
@@ -60,8 +55,22 @@ https://www.nodebeginner.org/index-zh-cn.html
 关于其模块的介绍：  
 http://www.infoq.com/cn/articles/nodejs-module-mechanism
 
+<br/><br/><br/>
+#二、JavaScript常用库
 
-7.webpack  
+1.JQuery  
+--------
+<br/>
+
+<br/><br/><br/>
+#三、CSS常用库 
+1.BootStrap  
+--------
+<br/>
+
+<br/><br/><br/>
+#四、其他工具
+1.webpack  
 ---------
 <br/>
 webpack是一个打包工具，可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些预设，打包为合适的格式以供浏览器使用。  
